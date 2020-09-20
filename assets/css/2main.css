@@ -3399,9 +3399,8 @@ body.is-menu-visible #menu {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: #FF6382;
 		border-radius: 4px;
@@ -3516,7 +3515,7 @@ body.is-menu-visible #menu {
 		button.special,
 		.button.special {
 			background-color: #FF6382;
-			color: !important;
+			color:  #FF6382;
 		}
 
 			input[type="submit"].special:hover,
